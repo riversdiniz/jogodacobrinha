@@ -2,15 +2,34 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    
+    <script defer src="main.js"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Snake Game</title>
 </head>
 <body>
-    <h1>Snake Game!</h1>
-    <canvas id="snake" width="512" height="512"></canvas>
+    <img src="logo.png" alt="logo" class="logo">
+    <div class="container">
+    
+        <div class="text-left">
+            <div class="info">
+    
+           <h1>COMO JOGAR</h1> 
+                <p>
+                    O objetivo do jogo é capturar as frutas distribuídas 
+                    pelo tabuleiro. Controle a cobrinha usando as 
+                    pelas teclas direcionais do computador.
+                </p>
+            <img src="teclas.png" alt="teclado">
+        </div>
+        </div>
+        
+        <div class="game">
+        <canvas id="snake" width="512" height="512"></canvas>
+        </div>
+        </div>
 </body>
-
 </html>
